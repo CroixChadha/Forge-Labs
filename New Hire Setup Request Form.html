@@ -15,13 +15,14 @@
     </head>
     <body>
     <main>
-    <form action="https://testforgpt.com/example" method="post" id="form"> 
         <header>
             <h1>New Hire Setup Request Form</h1>
         </header>
+    <form action="https://testforgpt.com/example" method="post" id="form"> 
+        
         <br>
         <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
+        <input type="text" id="name" name="name" required placeholder="First name, Last name">
         <br><br>
         <label for="email">Email</label>
         <input type="email" id="email" name="email" required placeholder="Enter your email">
@@ -45,20 +46,23 @@
             <fieldset id="Equipment">
             <legend>Equipment Needed:</legend>
         <label for="Laptop">Laptop</label>
-        <input type="checkbox" id="Laptop" name="Laptop" required>
+        <input type="checkbox" id="Laptop" name="Laptop" >
         <br><br>
         <label for="Monitor">Monitor</label>
-        <input type="checkbox" id="Monitor" name="Monitor" required>
+        <input type="checkbox" id="Monitor" name="Monitor" >
         <br><br>
         <label for="Badge">Badge</label>
-        <input type="checkbox" id="Badge" name="Badge" required>
+        <input type="checkbox" id="Badge" name="Badge" >
         <br><br>
         <label for="Headset">Headset</label>
-        <input type="checkbox" id="Headset" name="Headset" required>
+        <input type="checkbox" id="Headset" name="Headset">
+        <br><br>
+        <label for="None">None</label>
+        <input type="checkbox" id="None" name="None">
         </fieldset>
         <br><br>
-        <h2>Notes:</h2>
-        <textarea id="Notes" name="Notes" required placeholder="Type any notes here!"></textarea>
+        <h2>Notes (Optional):</h2>
+        <textarea id="Notes" name="Notes" placeholder="Type any notes here!"></textarea>
 
         <br><br>
         <input type="submit" id="submit" name="submit" value="Submit Here!">
