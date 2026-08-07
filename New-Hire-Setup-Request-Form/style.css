@@ -12,20 +12,16 @@ body {
 
 #emptype {
     width: auto;
-    border-radius: 20px;
     padding: 7px;
     text-align: center;
-    font-family: Bitcount prop single;
     display: block;
 }
 #name {
     width: auto;
     border: 5px;
-    border-radius: 20px;
     padding: 7px;
     margin-bottom: 10px;
     text-align: center;
-    font-family: Bitcount prop single;
     display: block;
     
 
@@ -35,17 +31,13 @@ body {
     width: auto;
     display: block;
     border: 5px;
-    border-radius: 20px;
     padding: 7px;
     text-align: center;
-    font-family: Bitcount prop single;
     margin-bottom: 15px;
 }
 #date {
     width: auto;
     border: 5px;
-    border-radius: 20px;
-    font-family: Bitcount prop single;
     padding-left: 100px;
     padding-right: 100px;
     margin-bottom: 15px;
@@ -71,9 +63,7 @@ h1 {
     display: block;
     width: auto;
     border-radius: 10px;
-    font-family: Bitcount prop single;
     text-align: center;
-    margin-bottom: 20px;
     border: 5px solid;
     border-color: lightgoldenrodyellow;
     
@@ -111,10 +101,8 @@ label {
 
 #equipment {
     width: auto;
-    border-radius: 20px;
     padding: 7px;
     text-align: center;
-    font-family: Bitcount prop single;
     display: block;
     
 }
