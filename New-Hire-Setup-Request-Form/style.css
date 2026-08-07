@@ -1,0 +1,76 @@
+html{
+    font-family: Bitcount prop single;
+    font-weight: 300;
+   
+}
+body {
+    background-color: lightblue;
+}
+
+#emptype {
+    width: auto;
+    border: 5px;
+    border-radius: 20px;
+    padding: 7px;
+    text-align: center;
+    font-family: Bitcount prop single;
+    display: block;
+}
+#name {
+    width: auto;
+    border: 5px;
+    border-radius: 20px;
+    padding: 7px;
+    text-align: center;
+    font-family: Bitcount prop single;
+    display: block;
+    
+}
+#email {
+    width: auto;
+    display: block;
+
+    border: 5px;
+    border-radius: 20px;
+    padding: 7px;
+    text-align: center;
+    font-family: Bitcount prop single;
+    margin-bottom: 15px;
+}
+#date {
+    width: auto;
+    border: 5px;
+    border-radius: 20px;
+    font-family: Bitcount prop single;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 15px;
+    display: block;
+   
+}
+
+header {
+    width: auto;
+    border: 5px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: darkblue;
+    margin-bottom: 20px
+}
+
+h1 {
+    font-weight: 250;
+    color: lightblue;
+}
+#notes {
+    display: block;
+    width: auto;
+    border: 5px;
+    border-radius: 10px;
+    font-family: Bitcount prop single;
+    text-align: center;
+    
+}
+fieldset {
+    
+}

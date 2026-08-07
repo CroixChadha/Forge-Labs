@@ -9,7 +9,13 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap" rel="stylesheet">
+
     </head>
+
+
     <body>
     <header>
         <h1>New Hire Setup Request Form</h1>
@@ -18,51 +24,51 @@
         
     <form action="https://testforgpt.com/example" method="post" id="form"> 
         
-        <br>
+        
         <label for="name">Name</label>
         <input type="text" id="name" name="name" required placeholder="First name, Last name">
-        <br><br>
+
         <label for="email">Email</label>
         <input type="email" id="email" name="email" required placeholder="Enter your email">
-        <br><br>
+        
         <label for="date">Start Date</label>
         <input type="date" id="date" name="date" required>
-        <br><br>
+        
         <fieldset id="emptype">
         <legend>Employment Type:</legend>
-        <br>
+        
         <label for="intern">Intern</label>
         <input type="radio" name="emp-type" required id="intern">
-        <br><br>
+        
         <label for="contractor">Contractor</label>
         <input type="radio" name="emp-type" required id="contractor">
-        <br><br>
+        
         <label for="fulltime">Full Time</label>
         <input type="radio" name="emp-type" required id="fulltime">
         </fieldset>
-        <br><br>
+        
             <fieldset id="equipment">
             <legend>Equipment Needed:</legend>
         <label for="laptop">Laptop</label>
         <input type="checkbox" id="laptop" name="laptop" >
-        <br><br>
+        
         <label for="monitor">Monitor</label>
         <input type="checkbox" id="monitor" name="monitor" >
-        <br><br>
+        
         <label for="badge">Badge</label>
         <input type="checkbox" id="badge" name="badge" >
-        <br><br>
+        
         <label for="headset">Headset</label>
         <input type="checkbox" id="headset" name="headset">
-        <br><br>
+        
         <label for="none">None</label>
         <input type="checkbox" id="none" name="none">
         </fieldset>
-        <br><br>
+        
         <label for="notes">Notes (optional)</label>
         <textarea id="notes" name="notes" placeholder="Type any notes here!"></textarea>
 
-        <br><br>
+        
         <input type="submit" id="submit" name="submit" value="Submit Here!">
     
         
