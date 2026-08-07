@@ -11,8 +11,7 @@ body {
 }
 
 #emptype {
-    width: 20px;
-    border: 5px;
+    width: auto;
     border-radius: 20px;
     padding: 7px;
     text-align: center;
@@ -133,4 +132,10 @@ footer {
     background-color: burlywood;
     margin-bottom: 20px;
     margin-top: 100px;
+}
+
+
+.form-responses {
+    border-radius: 20px;
+    font-family: Bitcount prop single;
 }

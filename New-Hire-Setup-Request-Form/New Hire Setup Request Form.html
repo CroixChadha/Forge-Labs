@@ -26,15 +26,15 @@
         
         
         <label for="name">Name</label>
-        <input type="text" id="name" name="name" required placeholder="First name, Last name">
+        <input type="text" id="name" name="name" class="form-responses" placeholder="First name, Last name">
 
         <label for="email">Email</label>
-        <input type="email" id="email" name="email" required placeholder="Enter your email">
+        <input type="email" id="email" name="email" class="form-responses"required placeholder="Enter your email">
         
         <label for="date">Start Date</label>
-        <input type="date" id="date" name="date" required>
+        <input type="date" id="date" name="date" class="form-responses" required>
         
-        <fieldset id="emptype">
+        <fieldset id="emptype" class="form-responses">
         <legend>Employment Type:</legend>
         
         <label for="intern">Intern</label>
@@ -47,7 +47,7 @@
         <input type="radio" name="emp-type" required id="fulltime">
         </fieldset>
         
-            <fieldset id="equipment">
+            <fieldset id="equipment" class="form-responses">
             <legend>Equipment Needed:</legend>
         <label for="laptop">Laptop</label>
         <input type="checkbox" id="laptop" name="laptop" >
@@ -66,7 +66,7 @@
         </fieldset>
         
         <label for="notes">Notes (optional)</label>
-        <textarea id="notes" name="notes" placeholder="Type any notes here!"></textarea>
+        <textarea id="notes" name="notes" class="form-responses" placeholder="Type any notes here!"></textarea>
 
         
         <input type="submit" id="submit" name="submit" value="Submit Here!">
